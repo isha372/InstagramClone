@@ -177,7 +177,7 @@ const getUserById = async (req, res) => {
     });
   } catch (e) {
     return res.status(500).json({
-      message: 'Error in getting user by UserId',
+      message: 'Error in getting user by UserId'
     });
   }
 };
