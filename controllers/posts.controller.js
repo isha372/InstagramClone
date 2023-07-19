@@ -16,7 +16,7 @@ const getAllPosts = async (req, res) => {
     });
 
     return res.status(200).json({
-      message: 'Getting all the Posts successfully',
+      message: 'Getting All The Posts successfully',
       data,
     });
   } catch (e) {
