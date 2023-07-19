@@ -27,7 +27,7 @@ const getAllUsers = async (req, res) => {
     });
   } catch (e) {
     return res.status(500).json({
-      e: 'error in getting the all  users',
+      e: 'Error in Getting the All  Users',
     });
   }
 };
