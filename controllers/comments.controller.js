@@ -15,6 +15,8 @@ const getAllComments = async (req, res) => {
   }
 };
 
+
+
 const postComments = async (req, res) => {
   try {
     const { body } = req;
